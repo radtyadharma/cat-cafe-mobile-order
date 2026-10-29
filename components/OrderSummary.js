@@ -20,11 +20,12 @@ const styles = StyleSheet.create({
   summaryCard: {
     backgroundColor: '#FFFFFF',
     borderRadius: 14,
-    padding: 18,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
     borderWidth: 1,
     borderColor: '#E6E1D6',
     alignItems: 'center',
-    marginVertical: 12,
+    marginVertical: 8,
   },
   titleText: {
     fontSize: 16,
@@ -32,13 +33,13 @@ const styles = StyleSheet.create({
     color: '#1E1B18',
   },
   promoContainer: {
-    marginTop: 10,
+    marginTop: 8,
     backgroundColor: '#EAF7EE',
     borderWidth: 1,
     borderColor: '#C3E8CC',
     borderRadius: 8,
-    paddingVertical: 8,
-    paddingHorizontal: 14,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
   },
   promoText: {
     color: '#1F7A4C',
