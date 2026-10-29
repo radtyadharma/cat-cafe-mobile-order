@@ -1,12 +1,21 @@
-# Cat Cafe Mobile Order (Tugas Props & State React Native)
+# Tugas Pertemuan 4 – Props & State (React Native + Expo)
+
+**Nama Mahasiswa**: Putu Raditya Dharma Putra  
+**NIM**: 240040015  
+**Mata Kuliah**: Aplikasi Berbasis Platform  
+**Program Studi**: S1 Teknologi Informasi – ITB STIKOM Bali  
+
+---
+
+## 📱 Cat Cafe Mobile Order (Aplikasi Pemesanan Kafe Kucing)
 
 Aplikasi seluler pemesanan katalog Kafe Kucing berbasis React Native yang mengimplementasikan arsitektur modular, pemisahan tugas pengiriman data (**Props**), pengelolaan data dinamis (**State**), serta mekanisme **Lifting State Up**.
 
 ---
 
-## 📱 Gambaran Proyek
+## 📑 Gambaran Proyek
 
-Proyek ini dibuat untuk memenuhi Tugas Pertemuan 4 mata kuliah Pemrograman Perangkat Bergerak / Mobile Programming dengan spesifikasi arsitektur terpisah:
+Proyek ini dibuat untuk memenuhi Tugas Pertemuan 4 mata kuliah Aplikasi Berbasis Platform / Pemrograman Perangkat Bergerak dengan spesifikasi arsitektur terpisah:
 
 - **`App` (Parent Component)**: Mengelola state global `totalPesanan`, mendefinisikan array data statis `DAFTAR_MENU`, dan mendistribusikan callback serta data ke child component.
 - **`OrderSummary` (Child Component 1)**: Menerima props `totalCount` dari parent untuk merender total akumulasi pesanan serta menampilkan label promo 10% secara kondisional saat `totalCount >= 5`.
@@ -16,7 +25,7 @@ Proyek ini dibuat untuk memenuhi Tugas Pertemuan 4 mata kuliah Pemrograman Peran
 
 ## 🛠️ Tech Stack & Konsep Inti
 
-- **Framework**: React Native (Expo)
+- **Framework**: React Native (Expo SDK 58)
 - **State Management**: React Hooks (`useState`)
 - **Container List**: `ScrollView`
 - **Konsep React Native**:
